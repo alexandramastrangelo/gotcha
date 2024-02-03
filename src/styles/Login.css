@@ -1,0 +1,69 @@
+/* Login.css - Centered and Styled Login Page */
+
+.login {
+    /* display: grid;
+    width:100%;
+    border: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--timberwolf); */
+
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--timberwolf);
+  }
+
+
+  h2 {
+    margin-bottom: 20px; /* Reduce margin at the bottom of the title */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    max-width: 600px;
+    /* padding: 20px; */
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left; /* Left-align labels */
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Add some vertical spacing between inputs */
+  }
+  
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
