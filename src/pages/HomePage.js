@@ -1,6 +1,6 @@
 // Example: src/pages/HomePage.js
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Header } from "../components/Header";
 import "../styles/HomePage.css"; // Assuming you have a CSS file for styling
 
@@ -28,7 +28,13 @@ function HomePage() {
                     </ul>
                 </nav>
             </header> */}
-            <main className="main-content">{/* Main content of your homepage goes here */}</main>
+            <main className="main-content">
+                <div className="buttonContainer">
+                    <Link to="/admin/dashboard">
+                        <button className="Admin">Admin Dashboard</button>
+                    </Link>
+                </div>
+            </main>
         </div>
     );
 }

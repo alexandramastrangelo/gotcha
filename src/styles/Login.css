@@ -9,17 +9,37 @@
     height: 100vh;
     background-color: var(--timberwolf); */
 
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: var(--timberwolf);
+    /* display: flex; */
+    /* flex-direction: column; Stack elements vertically */
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100vh;
+    background-color: var(--timberwolf); */
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
   }
 
 
   h2 {
     margin-bottom: 20px; /* Reduce margin at the bottom of the title */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
   }
   
   .form-group {
@@ -35,28 +55,24 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center; 
+
   }
   
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    text-align: left; /* Left-align labels */
-  }
   
   input[type="email"],
   input[type="password"] {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 15px; /* Add some vertical spacing between inputs */
+    /* margin-bottom: 15px; Add some vertical spacing between inputs */
   }
   
   
   button {
     background-color: #007bff;
     color: #fff;
+    width: 283px;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;

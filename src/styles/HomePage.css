@@ -85,4 +85,14 @@
   footer p {
     color: var(--charcoal); /* Consistent text color for readability */
   }
+
+  .buttonContainer {
+      display: flex;
+      justify-content: left; /* Horizontally center the content */
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+      height: 100%; /* Ensure it takes at least the full height of its parent, adjust as necessary */
+      width: 100%; /* Full width */
+  }
   

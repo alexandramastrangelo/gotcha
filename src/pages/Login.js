@@ -1,6 +1,6 @@
 // Login.js
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Header } from "../components/Header";
 import "../styles/Login.css"; // Assuming you have a CSS file for styling
 
@@ -32,13 +32,19 @@ function Login() {
                 <h2>Login</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="email">Email:</label>
-                        <input type="email" id="email" value={email} onChange={handleEmailChange} required />
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            id="email"
+                            value={email}
+                            onChange={handleEmailChange}
+                            required
+                        />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="password">Password:</label>
                         <input
                             type="password"
+                            placeholder="Password"
                             id="password"
                             value={password}
                             onChange={handlePasswordChange}
